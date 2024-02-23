@@ -1,4 +1,5 @@
 let mySprite = sprites.create(assets.image`myImage4`, SpriteKind.Player)
+scaling.scaleByPercent(mySprite, 50, ScaleDirection.Uniformly, ScaleAnchor.Middle)
 game.splash("Locker Cheese Studios presents・・・")
 scene.setBackgroundColor(8)
 mySprite.setPosition(84, 35)
